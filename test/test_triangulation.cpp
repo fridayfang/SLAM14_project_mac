@@ -28,5 +28,6 @@ TEST(MyslamTest, Triangulation) {
 
 int main(int argc, char **argv) {
     ::testing::InitGoogleTest(&argc, argv);
+    std::cout << "test for cr action\n";
     return RUN_ALL_TESTS();
 }
